@@ -6,7 +6,7 @@ using Reactant: Reactant, @compile, @code_hlo, AnyTracedRArray, TracedRArray, Tr
 using Setfield: @set!
 using Static: True, False
 
-using Lux: Lux, LuxOps, Training, Utils
+using Lux: Lux, LuxOps, Training, Utils, StatefulLuxLayer
 using Lux.Training: TrainingBackendCache, ReactantBackend
 
 Lux.is_extension_loaded(::Val{:Reactant}) = true
